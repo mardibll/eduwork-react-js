@@ -5,17 +5,17 @@ import "./Layout.css";
 export default function Layout() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse">
-            <div class="navbar-nav">
-              <Link class="nav-link text" to="/">
+      <nav className="navbar navbar-expand-lg bg-primary">
+        <div className="container-fluid">
+          <div className="collapse navbar-collapse">
+            <div className="navbar-nav">
+              <Link className="nav-link text" to="/">
                 Home
               </Link>
-              <Link class="nav-link text" to="/About">
+              <Link className="nav-link text" to="/About">
                 About
               </Link>
-              <Link class="nav-link text" to="/Contact">
+              <Link className="nav-link text" to="/Contact">
                 Contact
               </Link>
             </div>

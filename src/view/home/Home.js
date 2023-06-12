@@ -1,9 +1,10 @@
 import React from "react";
 import "./home.css";
+import Calculator from "../../calculate";
 export default function Home() {
   return (
     <div className="contain">
-      <h4>Halaman Home</h4>
+      <Calculator />
     </div>
   );
 }
